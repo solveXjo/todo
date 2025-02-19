@@ -23,3 +23,6 @@ A simple and intuitive Todo App built with HTML, CSS, and JavaScript. This app a
 
     JavaScript: Logic for adding, editing, deleting, and filtering todos, as well as handling localStorage.
 
+
+#Development 
+1. chess

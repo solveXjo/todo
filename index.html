@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Todo App</h1>
+            <button id="newTodoBtn"><i class="fas fa-plus"></i> New</button>
+        </div>
+        <div class="filters">
+            <button class="active" data-filter="all">All</button>
+            <button data-filter="pending">Pending</button>
+            <button data-filter="completed">Completed</button>
+        </div>
+        <div class="todo-list" id="todoList"></div>
+    </div>
+
+    <div class="modal" id="todoModal">
+        <div class="modal-content">
+            <input type="text" id="todoTitle" placeholder="Title">
+            <textarea id="todoDescription" placeholder="Description"></textarea>
+            <button id="saveTodoBtn">Save</button>
+        </div>
+    </div>
+<script src="scripts.js"></script>
+</body>
+</html>

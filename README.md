@@ -23,3 +23,6 @@ Technologies Used
 
     JavaScript: Logic for adding, editing, deleting, and filtering todos, as well as handling localStorage.
 
+
+#Development 
+1. chess

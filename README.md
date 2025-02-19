@@ -1,4 +1,4 @@
-#Todo App
+Todo App
 
 A simple and intuitive Todo App built with HTML, CSS, and JavaScript. This app allows users to create, edit, view, and delete tasks. Tasks can be marked as completed or pending, and users can filter tasks based on their status (All, Pending, Completed). The app uses localStorage to persist todos, ensuring that tasks are saved even after the page is refreshed.
 Features
